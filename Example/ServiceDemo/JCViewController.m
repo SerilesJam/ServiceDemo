@@ -29,7 +29,7 @@
 
 - (IBAction)onClickProduct:(id)sender {
 	
-	id<ProductService> productService = [[JCMediatorProtocl sharedInstance] provideProductService];
+	id<ProductService> productService = [[JCMediatorProtocol sharedInstance] provideProductService];
 	
 	UIViewController *viewController = [productService viewControllerForPorduct:@"水果" withDetail:@"非常好吃的热带水果快来买呀，过了就没了" extraParams:@{@"banana":@"15", @"apple":@"30", @"discount":@"0.75"}];
 	

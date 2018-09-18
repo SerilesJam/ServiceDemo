@@ -5,7 +5,7 @@
 //  Created by Jam Jia on 9/14/18.
 //
 
-#import <JCToolKit/JCMediatorProtocl.h>
+#import <JCToolKit/JCMediatorProtocol.h>
 
 @protocol ProductService
 
@@ -13,7 +13,7 @@
 
 @end
 
-@interface JCMediatorProtocl (ProductService)
+@interface JCMediatorProtocol (ProductService)
 
 - (id<ProductService>)provideProductService;
 

@@ -9,11 +9,11 @@
 
 NSString * const kJCMediatorService = @"ProductService";
 
-@implementation JCMediatorProtocl (ProductService)
+@implementation JCMediatorProtocol (ProductService)
 
 - (id<ProductService>)provideProductService
 {
-	return [self getServiceProvide:kJCMediatorService withProtocl:@protocol(ProductService)];
+	return [self getServiceProvide:kJCMediatorService withProtocl:@protocol(ProductService) shouldCacheService:YES];
 }
 
 @end
