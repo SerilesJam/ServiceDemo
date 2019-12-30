@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.public_header_files = 'ServiceDemo/Classes/JCMediatorProtocl+ProductService.h'
-  s.source_files = 'ServiceDemo/Classes/**/*'
+  s.source_files = 'ServiceDemo/Classes/*'
   
   s.resource_bundles = {
     'ServiceDemo' => ['ServiceDemo/Assets/*.{xib,xcassets,imageset,png,json,storyboard}']
