@@ -5,6 +5,7 @@
 //  Created by Jam Jia on 9/14/18.
 //
 
+#import <UIKit/UIKit.h>
 #import <JCToolKit/JCMediatorProtocol.h>
 
 @protocol ProductService
