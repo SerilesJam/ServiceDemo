@@ -13,17 +13,17 @@
 		390A3FA523C1EDC7004DBED4 /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A3FA123C1EDC7004DBED4 /* JCAppDelegate.m */; };
 		390A3FA623C1EDC7004DBED4 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A3FA223C1EDC7004DBED4 /* JCViewController.m */; };
 		390A3FA923C1EE1C004DBED4 /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; };
-		390A3FAA23C1EE1C004DBED4 /* ServiceDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FAA23C1EE1C004DBED4 /* ServiceDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		390A3FAE23C1EE3D004DBED4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4623C0B07B00874752 /* AFNetworking.framework */; };
-		390A3FAF23C1EE3D004DBED4 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4623C0B07B00874752 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FAF23C1EE3D004DBED4 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4623C0B07B00874752 /* AFNetworking.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		390A3FB023C1EE3D004DBED4 /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; };
-		390A3FB123C1EE3D004DBED4 /* JCToolKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FB123C1EE3D004DBED4 /* JCToolKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		390A3FB223C1EE3D004DBED4 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4523C0B07B00874752 /* SAMKeychain.framework */; };
-		390A3FB323C1EE3D004DBED4 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4523C0B07B00874752 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FB323C1EE3D004DBED4 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4523C0B07B00874752 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		390A3FB423C1EE3D004DBED4 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4923C0B07B00874752 /* YYCache.framework */; };
-		390A3FB523C1EE3D004DBED4 /* YYCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4923C0B07B00874752 /* YYCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FB523C1EE3D004DBED4 /* YYCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4923C0B07B00874752 /* YYCache.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		390A3FB623C1EE3D004DBED4 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4823C0B07B00874752 /* YYModel.framework */; };
-		390A3FB723C1EE3D004DBED4 /* YYModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4823C0B07B00874752 /* YYModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		390A3FB723C1EE3D004DBED4 /* YYModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4823C0B07B00874752 /* YYModel.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3927CA3D23C0A7CD00874752 /* JCProductService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927CA3723C0A7CD00874752 /* JCProductService.h */; };
 		3927CA3E23C0A7CD00874752 /* ProductViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927CA3823C0A7CD00874752 /* ProductViewController.h */; };
 		3927CA3F23C0A7CD00874752 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3927CA3923C0A7CD00874752 /* ProductViewController.m */; };
@@ -431,6 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -592,6 +594,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.0;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
@@ -619,6 +622,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.0;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
@@ -636,7 +640,7 @@
 				INFOPLIST_FILE = "ServiceDemo iOS/ResourceBundle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SDKROOT = iphoneos;
@@ -655,7 +659,7 @@
 				INFOPLIST_FILE = "ServiceDemo iOS/ResourceBundle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SDKROOT = iphoneos;
