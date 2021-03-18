@@ -7,13 +7,13 @@
 
 #import "JCMediatorProtocl+ProductService.h"
 
-NSString * const kJCMediatorService = @"ProductService";
+NSString * const kJCMediatorProductService = @"ProductService";
 
 @implementation JCMediatorProtocol (ProductService)
 
 - (id<ProductService>)provideProductService
 {
-	return [self getServiceProvide:kJCMediatorService withProtocl:@protocol(ProductService) shouldCacheService:YES];
+	return [self getServiceProvide:kJCMediatorProductService withProtocl:@protocol(ProductService) shouldCacheService:YES];
 }
 
 @end

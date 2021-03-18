@@ -1,4 +1,11 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+install! 'cocoapods',
+         :disable_input_output_paths => true
+inhibit_all_warnings!
+use_modular_headers!
 
 target 'ServiceDemo_Example' do
   pod 'ServiceDemo', :path => '../'
