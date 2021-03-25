@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ServiceDemo'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of ServiceDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Jam' => 'hxjiamiao@126.com' }
   s.source           = { :git => 'https://github.com/SerilesJam/ServiceDemo.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.public_header_files = 'ServiceDemo/Classes/JCMediatorProtocl+ProductService.h'
   s.source_files = 'ServiceDemo/Classes/*'
