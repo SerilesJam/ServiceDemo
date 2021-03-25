@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		365BDC9223C2DA19001055F0 /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; };
-		365BDC9323C2DA19001055F0 /* ServiceDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36BDC1A6260C74C300C0EDDC /* ServiceDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 392C966523BF5B6E00C5D64B /* ServiceDemo.bundle */; };
+		36BDC1F3260C7C0400C0EDDC /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392C965623BF5AB600C5D64B /* ServiceDemo.framework */; };
+		36BDC1F6260C7C0800C0EDDC /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; };
 		390A3F9323C1ECF2004DBED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390A3F9123C1ECF2004DBED4 /* Main.storyboard */; };
 		390A3F9823C1ECF4004DBED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390A3F9623C1ECF4004DBED4 /* LaunchScreen.storyboard */; };
 		390A3FA023C1EDB7004DBED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A3F9F23C1EDB7004DBED4 /* main.m */; };
 		390A3FA523C1EDC7004DBED4 /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A3FA123C1EDC7004DBED4 /* JCAppDelegate.m */; };
 		390A3FA623C1EDC7004DBED4 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A3FA223C1EDC7004DBED4 /* JCViewController.m */; };
-		390A3FAE23C1EE3D004DBED4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4623C0B07B00874752 /* AFNetworking.framework */; };
-		390A3FB023C1EE3D004DBED4 /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; };
-		390A3FB223C1EE3D004DBED4 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4523C0B07B00874752 /* SAMKeychain.framework */; };
-		390A3FB423C1EE3D004DBED4 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4923C0B07B00874752 /* YYCache.framework */; };
-		390A3FB623C1EE3D004DBED4 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4823C0B07B00874752 /* YYModel.framework */; };
 		3927CA3D23C0A7CD00874752 /* JCProductService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927CA3723C0A7CD00874752 /* JCProductService.h */; };
 		3927CA3E23C0A7CD00874752 /* ProductViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927CA3823C0A7CD00874752 /* ProductViewController.h */; };
 		3927CA3F23C0A7CD00874752 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3927CA3923C0A7CD00874752 /* ProductViewController.m */; };
@@ -26,23 +22,19 @@
 		3927CA4123C0A7CD00874752 /* JCProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3927CA3B23C0A7CD00874752 /* JCProductService.m */; };
 		3927CA4223C0A7CD00874752 /* JCMediatorProtocl+ProductService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927CA3C23C0A7CD00874752 /* JCMediatorProtocl+ProductService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3927CA4423C0A7F500874752 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3927CA4323C0A7F500874752 /* ProductViewController.xib */; platformFilter = ios; };
-		3927CA4A23C0B07C00874752 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4523C0B07B00874752 /* SAMKeychain.framework */; platformFilter = ios; };
-		3927CA4C23C0B07C00874752 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4623C0B07B00874752 /* AFNetworking.framework */; platformFilter = ios; };
 		3927CA4E23C0B07C00874752 /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4723C0B07B00874752 /* JCToolKit.framework */; platformFilter = ios; };
-		3927CA5023C0B07C00874752 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4823C0B07B00874752 /* YYModel.framework */; platformFilter = ios; };
-		3927CA5223C0B07C00874752 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3927CA4923C0B07B00874752 /* YYCache.framework */; platformFilter = ios; };
 		392C967B23BF66B100C5D64B /* ServiceDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 392C966523BF5B6E00C5D64B /* ServiceDemo.bundle */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		390A3FA723C1EE07004DBED4 /* PBXContainerItemProxy */ = {
+		36BDC1A4260C74B300C0EDDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 392C964D23BF5AB600C5D64B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 392C965523BF5AB600C5D64B;
-			remoteInfo = ServiceDemo;
+			remoteGlobalIDString = 392C966423BF5B6E00C5D64B;
+			remoteInfo = "ServiceDemo-ServiceDemo";
 		};
-		390A3FAB23C1EE1C004DBED4 /* PBXContainerItemProxy */ = {
+		390A3FA723C1EE07004DBED4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 392C964D23BF5AB600C5D64B /* Project object */;
 			proxyType = 1;
@@ -57,20 +49,6 @@
 			remoteInfo = "ServiceDemo-ServiceDemo";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		390A3FAD23C1EE1D004DBED4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				365BDC9323C2DA19001055F0 /* ServiceDemo.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		390A3F8623C1ECF2004DBED4 /* ServiceDemo Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ServiceDemo Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,11 +67,7 @@
 		3927CA3B23C0A7CD00874752 /* JCProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCProductService.m; path = ServiceDemo/Classes/JCProductService.m; sourceTree = SOURCE_ROOT; };
 		3927CA3C23C0A7CD00874752 /* JCMediatorProtocl+ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JCMediatorProtocl+ProductService.h"; path = "ServiceDemo/Classes/JCMediatorProtocl+ProductService.h"; sourceTree = SOURCE_ROOT; };
 		3927CA4323C0A7F500874752 /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductViewController.xib; path = ServiceDemo/Assets/ProductViewController.xib; sourceTree = SOURCE_ROOT; };
-		3927CA4523C0B07B00874752 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = "<group>"; };
-		3927CA4623C0B07B00874752 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		3927CA4723C0B07B00874752 /* JCToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JCToolKit.framework; path = Carthage/Build/iOS/JCToolKit.framework; sourceTree = "<group>"; };
-		3927CA4823C0B07B00874752 /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYModel.framework; path = Carthage/Build/iOS/YYModel.framework; sourceTree = "<group>"; };
-		3927CA4923C0B07B00874752 /* YYCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYCache.framework; path = Carthage/Build/iOS/YYCache.framework; sourceTree = "<group>"; };
 		392C965623BF5AB600C5D64B /* ServiceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ServiceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		392C965A23BF5AB600C5D64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		392C966523BF5B6E00C5D64B /* ServiceDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,12 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390A3FB023C1EE3D004DBED4 /* JCToolKit.framework in Frameworks */,
-				390A3FB623C1EE3D004DBED4 /* YYModel.framework in Frameworks */,
-				390A3FB223C1EE3D004DBED4 /* SAMKeychain.framework in Frameworks */,
-				365BDC9223C2DA19001055F0 /* ServiceDemo.framework in Frameworks */,
-				390A3FB423C1EE3D004DBED4 /* YYCache.framework in Frameworks */,
-				390A3FAE23C1EE3D004DBED4 /* AFNetworking.framework in Frameworks */,
+				36BDC1F6260C7C0800C0EDDC /* JCToolKit.framework in Frameworks */,
+				36BDC1F3260C7C0400C0EDDC /* ServiceDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,11 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3927CA5023C0B07C00874752 /* YYModel.framework in Frameworks */,
 				3927CA4E23C0B07C00874752 /* JCToolKit.framework in Frameworks */,
-				3927CA4A23C0B07C00874752 /* SAMKeychain.framework in Frameworks */,
-				3927CA5223C0B07C00874752 /* YYCache.framework in Frameworks */,
-				3927CA4C23C0B07C00874752 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +156,7 @@
 		392C967023BF5FD300C5D64B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3927CA4623C0B07B00874752 /* AFNetworking.framework */,
 				3927CA4723C0B07B00874752 /* JCToolKit.framework */,
-				3927CA4523C0B07B00874752 /* SAMKeychain.framework */,
-				3927CA4923C0B07B00874752 /* YYCache.framework */,
-				3927CA4823C0B07B00874752 /* YYModel.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,14 +184,13 @@
 				390A3F8223C1ECF2004DBED4 /* Sources */,
 				390A3F8323C1ECF2004DBED4 /* Frameworks */,
 				390A3F8423C1ECF2004DBED4 /* Resources */,
-				390A3FAD23C1EE1D004DBED4 /* Embed Frameworks */,
 				365BDC9423C2DA28001055F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36BDC1A5260C74B300C0EDDC /* PBXTargetDependency */,
 				390A3FA823C1EE07004DBED4 /* PBXTargetDependency */,
-				390A3FAC23C1EE1C004DBED4 /* PBXTargetDependency */,
 			);
 			name = "ServiceDemo Example";
 			productName = "ServiceDemo Example";
@@ -316,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BDC1A6260C74C300C0EDDC /* ServiceDemo.bundle in Resources */,
 				390A3F9823C1ECF4004DBED4 /* LaunchScreen.storyboard in Resources */,
 				390A3F9323C1ECF2004DBED4 /* Main.storyboard in Resources */,
 			);
@@ -392,15 +354,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36BDC1A5260C74B300C0EDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392C966423BF5B6E00C5D64B /* ServiceDemo-ServiceDemo */;
+			targetProxy = 36BDC1A4260C74B300C0EDDC /* PBXContainerItemProxy */;
+		};
 		390A3FA823C1EE07004DBED4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 392C965523BF5AB600C5D64B /* ServiceDemo */;
 			targetProxy = 390A3FA723C1EE07004DBED4 /* PBXContainerItemProxy */;
-		};
-		390A3FAC23C1EE1C004DBED4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 392C965523BF5AB600C5D64B /* ServiceDemo */;
-			targetProxy = 390A3FAB23C1EE1C004DBED4 /* PBXContainerItemProxy */;
 		};
 		39ECB87723BF7902000CC6E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -445,6 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.2.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.2.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,8 +571,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.2.0;
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SKIP_INSTALL = YES;
@@ -635,8 +600,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.2.0;
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SKIP_INSTALL = YES;
