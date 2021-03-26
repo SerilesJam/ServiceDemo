@@ -406,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +428,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.ServiceDemo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -572,7 +572,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
@@ -601,7 +601,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
@@ -619,7 +619,7 @@
 				INFOPLIST_FILE = "ServiceDemo iOS/ResourceBundle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SDKROOT = iphoneos;
@@ -638,7 +638,7 @@
 				INFOPLIST_FILE = "ServiceDemo iOS/ResourceBundle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = serisjam.ServiceDemo;
 				PRODUCT_NAME = ServiceDemo;
 				SDKROOT = iphoneos;
